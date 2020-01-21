@@ -3,11 +3,9 @@ function init() {
     // Check if WebGL is available see Three/examples
     // No need for webgl2 here - change as appropriate
     
-<<<<<<< HEAD
-    // add our rendering surface and initialize the renderer
-=======
+
     // add our rendering surface and initialize the renderer1
->>>>>>> origin/master
+
     var container = document.createElement( 'div' );
     document.body.appendChild( container );
     // WebGL2 examples suggest we need a canvas
@@ -28,9 +26,7 @@ function init() {
     var axes = new THREE.AxesHelper(10);
     scene.add(axes);
     
-<<<<<<< HEAD
-    }
-=======
+
     // put a plane on the ground 
     // 20 wide, 40 deep - this is x/y
     var planeGeometry = new THREE.PlaneGeometry(20, 40);
@@ -160,4 +156,3 @@ window.addEventListener('resize', onResize, true);
 
 
 
->>>>>>> origin/master
